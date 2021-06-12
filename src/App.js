@@ -10,7 +10,7 @@ const todoList = [
     id:465465464
   },{
     item:'todo2',
-    done:false,
+    done:true,
     id:465465464
   }
 ]

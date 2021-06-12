@@ -1,0 +1,10 @@
+.todoItem{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width:80%;
+    background-color:white;
+    margin: .5rem .25rem;
+    height:3rem;
+    border-radius:.75rem;
+}
