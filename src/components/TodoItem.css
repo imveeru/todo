@@ -8,3 +8,11 @@
     height:3rem;
     border-radius:.75rem;
 }
+
+.todoItem>p{
+    flex:1
+}
+
+.todoItem--done{
+    text-decoration: line-through;
+}
