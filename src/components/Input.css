@@ -8,14 +8,14 @@
     align-items:center;
 }
 
-.add-ip{
+input{
     background: none;
     border: none;
     margin-left: 1rem;
     flex:1;
 }
 
-.add-ip:focus{
+input:focus{
     outline:none;
 }
 
