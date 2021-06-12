@@ -1,0 +1,29 @@
+.input{
+    height:4rem;
+    width:80%;
+    border-radius: 1rem;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.add-ip{
+    background: none;
+    border: none;
+    margin-left: 1rem;
+    flex:1;
+}
+
+.add-ip:focus{
+    outline:none;
+}
+
+.add-btn{
+    margin: 0.8rem;
+    background-color:rgb(225,225,225);
+    border:none;
+    border-radius:1.25rem ;
+    height:2.5rem;
+    width:4rem;
+}

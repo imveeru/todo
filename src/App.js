@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import Input from './components/Input';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi</h1>
+      <h1>ToDo App</h1>
+      <Input/>
+      <hello/>
     </div>
   );
 }
