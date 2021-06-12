@@ -9,7 +9,7 @@ const Input = () => {
     const dispatch = useDispatch()
 
     const addToDo=()=>{
-        console.log(`addToDo! ${input}`)
+        //console.log(`addToDo! ${input}`)
         dispatch(saveTodo({
             item:input,
             done:false,
@@ -19,7 +19,7 @@ const Input = () => {
 
     return (
         <div className="input">
-            <input type="text" value={input} onChange={e=>setInput(e.target.value)}></input>
+            <input autoFocus type="text" value={input} placeholder="Add your tasks here..." onChange={e=>setInput(e.target.value)}></input>
             <button className="add-btn" onClick={addToDo}>Add</button>
         </div>
     )

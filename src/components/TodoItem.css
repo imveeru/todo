@@ -13,6 +13,15 @@
     flex:1
 }
 
+.todoItem:hover{
+    cursor: pointer;
+}
+
 .todoItem--done{
     text-decoration: line-through;
+}
+
+.done{
+    background-color:#f5fff5;
+    border: solid 1px #00db07;
 }

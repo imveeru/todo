@@ -14,14 +14,14 @@ function TodoItem({name,done,id}) {
     }
 
     return (
-        <div className="todoItem">
+        <div className={done?"todoItem done":"todoItem"}>
             <Checkbox
                 checked={done}
                 color="primary"
                 onChange={handleCheck}
                 inputProps={{ 'aria-label': 'secondary checkbox' }}
             />
-            <p className={done&&'todoItem--done'}>{name}</p>
+            <p onClick={handleCheck} className={done?'todoItem--done':null}>{name}</p>
         </div>
     )
 }
