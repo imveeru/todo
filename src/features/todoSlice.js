@@ -31,3 +31,4 @@ export const {saveTodo,setCheck} = todoSlice.actions
 export const selectTodoList =state=>state.todos.todoList 
 
 export default todoSlice.reducer
+
